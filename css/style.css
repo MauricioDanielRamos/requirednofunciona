@@ -1,0 +1,21 @@
+.container__section{
+    display: flex;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+}
+.product-list{
+    margin: 0;
+    list-style-type: none;
+}
+.form{
+    display: flex;
+    flex-wrap: wrap;
+}
+.section-data{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    margin-left: 5%;
+}

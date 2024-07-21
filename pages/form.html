@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Formulario</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="./../css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="./../index.html">Inicio</a>
+            <a href="./pagina2.html">Productos</a>
+            <a href="./form.html">Contacto</a>
+        </nav>
+    </header>
+    <form action="" class="form">
+        <section class="section-data">
+            <label for="">Nombre:</label>
+            <input id="nombre" type="text" placeholder="Ej: Juan" required>
+            <label for="">Apellido:</label>
+            <input id="apellido" type="text" placeholder="Ej: Perez" required>
+            <label for="">Telefono:</label>
+            <input id="telefono" type="tel" placeholder="Ej: 11 2345 6789" required>
+            <label for="">e-mail:</label>
+            <input id="email" type="email" placeholder="Ej: mi@email.com" required>
+        </section>
+        <section class="section-data">
+            <label for="">Mensaje:</label>
+            <textarea name="" id="textarea" rows="10" placeholder="Escriba aqui su mensaje. Minimo 10 caracteres" minlength="10" required></textarea>
+        </section>
+        <button id="send">Enviar</button>
+    </form>
+    
+    <footer class="footer">
+        <!--<a href="https://www.facebook.com" target="_blank" class="boton">Facebook</a>
+        <a href="https://www.instagram.com" target="_blank" class="boton">Instagram</a>-->
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
+    <script src="./../js/form.js"></script>
+</body>
+</html>
